@@ -38,11 +38,15 @@ def main(args):
     exp_result_dir = '../exp_results/' + EXP_NAME
 
     # Make folder to save experiment result
-    if os.path.exists(exp_result_dir):
+    if MODE=='train' and os.path.exists(exp_result_dir):
         raise(ValueError('This code do not support continue training to prevent overwriting.\n\
             There already exists experiment folder having same name.\n\
             Change the experiment name and start new experiment.'))
-    else: os.mkdir(exp_result_dir)
+    elif MODE=='train' and not(os.path.exists(exp_result_dir)):
+        os.mkdir(exp_result_dir)
+    elif MODE=='test' and not(os.path.exists(exp_result_dir)):
+        raise(ValueError('There is no experiment to test!'))
+    else: raise(RuntimeError('Error in experiment folder'))
 
     test_scores = []
     # Run Experiments ################################################
