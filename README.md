@@ -9,7 +9,7 @@ It is utilized to research effect of hyperparameters.
 Writing...
 
 
+  
+### Updates
 
-Updates:
-
-191219 CIFAR10 dataset Classification updated
+191219: CIFAR10 dataset Classification updated
