@@ -1,0 +1,3 @@
+case_num,dataset,model,batch_size,max_epoch,optimizer,learning_rate,lr_step,lr_gamma,l2_decay,loss_fn,use_tensorboard,eval_metric
+0,cifar10,vgg16,50,2,adam,1e-3,2,0.1,0,cross_entropy,False,class_acc
+1,cifar10,resnet18,50,2,adam,1e-3,2,0.1,0,cross_entropy,False,class_acc
