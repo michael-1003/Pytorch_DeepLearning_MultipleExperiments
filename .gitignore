@@ -309,5 +309,6 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/vim,linux,macos,python,pycharm,windows,jupyternotebooks,visualstudiocode
 
-# Not upload data (User defined)
-/data
+# User defined
+# Not upload checkpoints
+*.pt
