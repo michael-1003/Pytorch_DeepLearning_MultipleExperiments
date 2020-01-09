@@ -1,4 +1,4 @@
-# Pytorch_DeepLearning_Base
+# Pytorch_DeepLearning_MultipleExperiments
 
 Base code for deep learning using pytorch.
 
