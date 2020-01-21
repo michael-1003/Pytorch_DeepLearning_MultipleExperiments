@@ -1,0 +1,7 @@
+case_num,dataset,model,batch_size,max_epoch,optimizer,learning_rate,lr_step,lr_gamma,l2_decay,loss_fn,use_tensorboard,eval_metric
+0,cifar10,vgg16,50,60,adam,1e-3,60,0.1,0,cross_entropy,False,class_acc
+1,cifar10,vgg13,50,60,adam,1e-3,60,0.1,0,cross_entropy,False,class_acc
+2,cifar10,resnet18,50,60,adam,1e-3,60,0.1,0,cross_entropy,False,class_acc
+3,cifar10,resnet34,50,60,adam,1e-3,60,0.1,0,cross_entropy,False,class_acc
+4,cifar10,senet18,50,60,adam,1e-3,60,0.1,0,cross_entropy,False,class_acc
+5,cifar10,densenet,50,60,adam,1e-3,60,0.1,0,cross_entropy,False,class_acc
